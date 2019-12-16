@@ -19,7 +19,7 @@ while True:
 
 
     screen.fill((255, 0, 0))
-    pygame.display.fli
+    pygame.display.flip()
 
     time.sleep(1)
 
