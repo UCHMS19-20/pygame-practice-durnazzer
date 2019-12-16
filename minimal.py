@@ -1,5 +1,6 @@
 import sys
 import pygame
+import time
 
 # Initialize pygame so it runs in the background and manages things
 pygame.init()
@@ -15,3 +16,14 @@ while True:
         if event.type == pygame.QUIT:
             # If so, exit the program
             sys.exit()
+
+
+    screen.fill((255, 0, 0))
+    pygame.display.fli
+
+    time.sleep(1)
+
+    screen.fill((60, 230, 30))
+    pygame.display.flip()
+
+    time.sleep(1)
